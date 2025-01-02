@@ -21,3 +21,9 @@ else{
     result.textContent = "Define the conversion type.";
 }
 }
+
+function toggleLights(){
+    const body = document.querySelector('body');
+    body.classList.toggle('light');
+    
+}
